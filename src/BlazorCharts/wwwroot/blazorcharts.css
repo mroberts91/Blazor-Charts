@@ -1,0 +1,645 @@
+﻿.donut-chart {
+}
+
+    .donut-chart div {
+        background: white;
+        border: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+        .donut-chart div svg {
+            display: block;
+            margin: auto;
+        }
+
+            .donut-chart div svg .background-rect {
+                width: 100%;
+                height: 100%;
+                fill: white;
+                stroke: white;
+                stroke-width: 0.2;
+            }
+
+            .donut-chart div svg .hole {
+                fill: #fff;
+            }
+
+            .donut-chart div svg .ring {
+                fill: transparent;
+                stroke-width: 3;
+                stroke: #d2d3d4;
+            }
+
+            .donut-chart div svg .segment-1 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #ce4b99
+            }
+
+            .donut-chart div svg .segment-2 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #27A844
+            }
+
+            .donut-chart div svg .segment-3 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #377bbc
+            }
+
+            .donut-chart div svg .segment-4 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #ff4b99
+            }
+
+            .donut-chart div svg .segment-5 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #ffA844
+            }
+
+            .donut-chart div svg .segment-6 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #bb7bbc
+            }
+
+            .donut-chart div svg .segment-7 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #554b99
+            }
+
+            .donut-chart div svg .segment-8 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #88A844
+            }
+
+            .donut-chart div svg .segment-9 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #EEA844
+            }
+
+            .donut-chart div svg .segment-10 {
+                fill: transparent;
+                stroke-width: 5;
+                stroke: #FFF844
+            }
+
+            .donut-chart div svg .donut-text {
+                fill: #000;
+                transform: translateY(0.25em);
+            }
+
+            .donut-chart div svg g .donut-number {
+                font-size: 0.5em;
+                line-height: 1;
+                text-anchor: middle;
+                transform: translate(50%, 50%) translateY(-0.25em);
+            }
+
+            .donut-chart div svg g .donut-label {
+                font-size: 0.2em;
+                text-transform: uppercase;
+                text-anchor: middle;
+                transform: translate(50%, 50%) translateY(0.3em);
+            }
+
+        .donut-chart div .donut-key {
+            margin: 20px;
+        }
+
+            .donut-chart div .donut-key [class*="legend-"] {
+                margin: 5px;
+                margin-right: 10px;
+                display: inline-block;
+                vertical-align: middle;
+                width: 20px;
+                height: 20px;
+                /*
+        width: 26px;
+        height: 26px;
+        */
+                border-radius: 50%;
+            }
+
+        .donut-chart div figcaption .donut-key-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 0.9em;
+        }
+
+            .donut-chart div figcaption .donut-key-list li {
+                margin: 0 0 8px;
+                padding: 0;
+            }
+
+        .donut-chart div figcaption ul .legend-dot-1 {
+            background: #ce4b99;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-2 {
+            background: #27A844;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-3 {
+            background: #377bbc;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-4 {
+            background: #ff4b99;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-5 {
+            background: #ffA844;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-6 {
+            background: #bb7bbc;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-7 {
+            background: #554b99;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-8 {
+            background: #88A844;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-9 {
+            background: #EEA844;
+            transform: translateY(-0.1em);
+        }
+
+        .donut-chart div figcaption ul .legend-dot-10 {
+            background: #FFF844;
+            transform: translateY(-0.1em);
+        }
+
+
+
+.horizontal-bar-chart {
+}
+
+    .horizontal-bar-chart div {
+    }
+
+        .horizontal-bar-chart div svg {
+        }
+
+            .horizontal-bar-chart div svg .background-rect {
+                width: 100%;
+                height: 100%;
+                fill: white;
+                stroke: lightgray;
+                stroke-width: 0.5;
+            }
+
+            .horizontal-bar-chart div svg .horizontal-grid-lines {
+                fill: none;
+                stroke: gray;
+                stroke-width: 0.2;
+            }
+
+            .horizontal-bar-chart div svg .y-axis-labels {
+                font-size: 4px;
+                text-anchor: end;
+            }
+
+            .horizontal-bar-chart div svg .vertical-grid-lines {
+                fill: none;
+                stroke: gray;
+                stroke-width: 0.2;
+            }
+
+            .horizontal-bar-chart div svg .x-axis-labels {
+                font-size: 4px;
+                text-anchor: middle;
+            }
+
+
+
+            .horizontal-bar-chart div svg .bar {
+                fill: #ce4b99;
+            }
+
+
+
+.line-chart {
+}
+
+    .line-chart div {
+        background: white;
+        border: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+        .line-chart div svg {
+        }
+
+            .line-chart div svg .background-rect {
+                width: 100%;
+                height: 100%;
+                fill: white;
+                stroke: lightgray;
+                stroke-width: 0.5;
+            }
+
+            .line-chart div svg .horizontal-grid-lines {
+                fill: none;
+                stroke: gray;
+                stroke-width: 0.2;
+            }
+
+            .line-chart div svg .y-axis-labels {
+                font-size: 4px;
+                text-anchor: end;
+            }
+
+            .line-chart div svg .vertical-grid-lines {
+                fill: none;
+                stroke: gray;
+                stroke-width: 0.2;
+            }
+
+            .line-chart div svg .x-axis-labels {
+                font-size: 4px;
+                text-anchor: middle;
+            }
+
+            .line-chart div svg .line-1 {
+                fill: none;
+                stroke: #ce4b99;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-2 {
+                fill: none;
+                stroke: #27A844;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-3 {
+                fill: none;
+                stroke: #377bbc;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-4 {
+                fill: none;
+                stroke: #fe2712;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-5 {
+                fill: none;
+                stroke: #fc600a;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-6 {
+                fill: none;
+                stroke: #fb9902;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-7 {
+                fill: none;
+                stroke: #fccc1a;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-8 {
+                fill: none;
+                stroke: #fefe33;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-9 {
+                fill: none;
+                stroke: #b2d732;
+                stroke-width: 1.0;
+            }
+
+            .line-chart div svg .line-10 {
+                fill: none;
+                stroke: #66b032;
+                stroke-width: 1.0;
+            }
+
+        .line-chart div .key {
+            margin: 20px;
+        }
+
+            .line-chart div .key [class*="legend-"] {
+                margin: 5px;
+                margin-right: 10px;
+                display: inline-block;
+                vertical-align: middle;
+                width: 20px;
+                height: 20px;
+                /*
+        width: 26px;
+        height: 26px;
+        */
+                border-radius: 50%;
+            }
+
+        .line-chart div figcaption .key-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 0.9em;
+        }
+
+            .line-chart div figcaption .key-list li {
+                margin: 0 0 8px;
+                padding: 0;
+            }
+
+        .line-chart div figcaption ul .legend-1 {
+            background: #ce4b99;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-2 {
+            background: #27A844;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-3 {
+            background: #377bbc;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-4 {
+            background: #fe2712;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-5 {
+            background: #fc600a;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-6 {
+            background: #fb9902;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-7 {
+            background: #fccc1a;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-8 {
+            background: #fefe33;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-9 {
+            background: #b2d732;
+            transform: translateY(-0.1em);
+        }
+
+        .line-chart div figcaption ul .legend-10 {
+            background: #66b032;
+            transform: translateY(-0.1em);
+        }
+
+
+.pie-chart {
+}
+
+    .pie-chart div {
+        background: white;
+        border: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+        .pie-chart div svg {
+            display: block;
+            margin: auto;
+        }
+
+            /*
+    .pie-chart div svg .background-rect{
+        width:100%;
+        height:100%;
+        fill:white;
+        stroke:white;
+        stroke-width:0.5;            
+    }
+    .pie-chart div svg .hole{
+        fill: #fff;
+    }
+
+    .pie-chart div svg .ring{
+        fill: transparent;
+        stroke-width:3;
+        stroke:#d2d3d4;
+    }
+    */
+
+
+            .pie-chart div svg .segment-1 {
+                fill: #ce4b99
+            }
+
+            .pie-chart div svg .segment-2 {
+                fill: #27A844
+            }
+
+            .pie-chart div svg .segment-3 {
+                fill: #377bbc
+            }
+
+            .pie-chart div svg .segment-4 {
+                fill: #fe2712
+            }
+
+            .pie-chart div svg .segment-5 {
+                fill: #fc600a
+            }
+
+            .pie-chart div svg .segment-6 {
+                fill: #fb9902
+            }
+
+            .pie-chart div svg .segment-7 {
+                fill: #fccc1a
+            }
+
+            .pie-chart div svg .segment-8 {
+                fill: #fefe33
+            }
+
+            .pie-chart div svg .segment-9 {
+                fill: #b2d732
+            }
+
+            .pie-chart div svg .segment-10 {
+                fill: #66b032
+            }
+        /*
+    .pie-chart div svg .pie-text {
+        fill: #000;
+        transform: translateY(0.25em);
+    }
+    
+    .pie-chart div svg g .pie-number {
+        font-size: 0.5em;
+        line-height: 1;
+        text-anchor: middle;
+        transform: translateY(-0.25em);
+    }
+    
+    .pie-chart div svg g .pie-label {
+        font-size: 0.2em;
+        text-transform: uppercase;
+        text-anchor: middle;
+        transform: translateY(0.3em);
+    }
+*/
+        .pie-chart div .pie-key {
+            margin: 20px;
+        }
+
+            .pie-chart div .pie-key [class*="legend-"] {
+                margin: 5px;
+                margin-right: 10px;
+                display: inline-block;
+                vertical-align: middle;
+                width: 20px;
+                height: 20px;
+                /*
+        width: 26px;
+        height: 26px;
+        */
+                border-radius: 50%;
+            }
+
+        .pie-chart div figcaption .pie-key-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 0.9em;
+        }
+
+            .pie-chart div figcaption .pie-key-list li {
+                margin: 0 0 8px;
+                padding: 0;
+            }
+
+        .pie-chart div figcaption ul .legend-dot-1 {
+            background: #ce4b99;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-2 {
+            background: #27A844;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-3 {
+            background: #377bbc;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-4 {
+            background: #fe2712;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-5 {
+            background: #fc600a;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-6 {
+            background: #fb9902;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-7 {
+            background: #fccc1a;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-8 {
+            background: #fefe33;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-9 {
+            background: #b2d732;
+            transform: translateY(-0.1em);
+        }
+
+        .pie-chart div figcaption ul .legend-dot-10 {
+            background: #66b032;
+            transform: translateY(-0.1em);
+        }
+
+
+
+.vertical-bar-chart {
+}
+
+    .vertical-bar-chart div {
+    }
+
+        .vertical-bar-chart div svg {
+        }
+
+            .vertical-bar-chart div svg .background-rect {
+                width: 100%;
+                height: 100%;
+                fill: white;
+                stroke: lightgray;
+                stroke-width: 0.5;
+            }
+
+            .vertical-bar-chart div svg .horizontal-grid-lines {
+                fill: none;
+                stroke: gray;
+                stroke-width: 0.2;
+            }
+
+            .vertical-bar-chart div svg .y-axis-labels {
+                font-size: 4px;
+                text-anchor: end;
+            }
+
+            /*
+    .vertical-bar-chart div svg .vertical-grid-lines{        
+        fill:none;
+        stroke:gray;
+        stroke-width:0.2;
+    }
+*/
+            .vertical-bar-chart div svg .x-axis-labels {
+                font-size: 4px;
+                text-anchor: end;
+            }
+
+            .vertical-bar-chart div svg .bar {
+                fill: #27A844;
+                width: 5px;
+            }
